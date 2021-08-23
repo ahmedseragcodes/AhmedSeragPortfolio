@@ -1,11 +1,11 @@
 import React from "react";
-import "./index.css";
+import "./index.scss";
 
 
 function App() {
   return (
     <div className="frontPageContainer">
-      <div className="logoAndHeading">
+      <div className="header">
         <p>Ahmed Serag</p>
         <i class="fas fa-atom fa-xl"></i>
       </div>

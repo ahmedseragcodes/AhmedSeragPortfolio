@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+  background-repeat: no-repeat;
+}
+
+
+/* Front Page Header */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  i {
+    margin: .5rem;
+  }
+  justify-content: align-left;
+  align-items: center;
+}
