@@ -22,3 +22,14 @@ body {
   justify-content: align-left;
   align-items: center;
 }
+
+/* Skills Icon Group */ 
+
+.skillsIconGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  i {
+    margin: .5rem;
+  }
+}
