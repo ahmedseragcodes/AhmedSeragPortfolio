@@ -2,6 +2,7 @@ import React from "react";
 import PokemonImg from "./PortfolioPokemonPic.PNG";
 import FamilyPromiseImg from "./PortfolioFamilyPromisePic.png";
 import CarSalesImg from "./PortfolioCarSalesPic.PNG";
+import PortfolioAuthorImg from "./PortfolioSelfImg.png";
 import "./index.scss";
 
 
@@ -10,7 +11,14 @@ function App() {
     <div className="frontPageContainer">
       <div className="header">
         <p>Ahmed Serag</p>
-        <i class="fas fa-atom fa-xl"></i>
+        <i class="fas fa-keyboard fa-xl"></i>
+      </div>
+      <div className="subHeaderImg">
+        <img src={PortfolioAuthorImg} alt="web developer who made this site"/>
+      </div>
+      <div className="subHeaderLinks">
+        <a href="https://github.com/ahmedseragcodes">My Github</a>
+        <a href="https://www.linkedin.com/in/ahmedcanam/">My LinkedIn</a>
       </div>
       <div className="skillsIconContainer">
         <h2>Skills</h2>
