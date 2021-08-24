@@ -2,7 +2,7 @@ import React from "react";
 import PokemonImg from "./PortfolioPokemonPic.PNG";
 import FamilyPromiseImg from "./PortfolioFamilyPromisePic.png";
 import CarSalesImg from "./PortfolioCarSalesPic.PNG";
-import PortfolioAuthorImg from "./PortfolioSelfImg.png";
+import PortfolioAuthorImg from "./PortfolioSelfie2.jpg";
 import AFBackendImg from "./PortfolioAFBackend.jpg";
 import CalculatorImg from "./PortfolioCalculator.PNG";
 import SignInSheetImg from "./PortfolioSignInSheet.PNG";
