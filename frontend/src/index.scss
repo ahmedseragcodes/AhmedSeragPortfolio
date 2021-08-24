@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+  background-repeat: no-repeat;
+}
+
+
+/* Front Page Header */
+
+.header {
+  display: flex;
+  flex-direction: row;
+  font-size: 2.5rem;
+  i {
+    margin: .5rem;
+  }
+  justify-content: align-left;
+  align-items: center;
+}
+
+/* Skills Icon Group */ 
+
+.skillsIconContainer {
+  text-align: center;
+  h2 {
+    font-size: 3rem;
+  }
+}
+
+.skillsIconGroup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 3rem;
+  i {
+    margin: 1rem;
+  }
+}
+
+/* Projects Group */
+.projectsGroupContainer {
+  text-align: center;
+  h2 {
+    margin-top: 5rem;
+    font-size: 3rem;
+  }
+}
+.projectsGroup1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.8rem;
+  padding: 1rem;
+  margin: 2rem;
+  box-shadow: 1rem 1rem 1rem 0rem black;
+  width: 33%;
+  text-align: center;
+  p {
+    width: 50%;
+  }
+  .projectCardImg {
+    width: 15rem;
+  }
+  a {
+    margin: 1rem;
+    text-decoration: none;
+  }
+}
