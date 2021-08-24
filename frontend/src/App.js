@@ -24,12 +24,14 @@ function App() {
       </div>
       <div className="skillsIconContainer">
         <h2>Skills</h2>
-        <div className="skillsIconGroup">
+        <div className="skillsIconGroup1">
           <i class="fab fa-react fa-xl"></i>
           <i class="fab fa-js-square fa-xl"></i>
           <i class="fab fa-node-js fa-xl"></i>
           <i class="fas fa-database fa-xl">SQLite</i>
           <i class="fab fa-css3-alt fa-xl"></i>
+        </div>
+        <div className="skillsIconGroup2">
           <i class="fab fa-sass fa-xl"></i>
           <i class="fab fa-html5 fa-xl"></i>
           <i class="fab fa-github fa-xl"></i>
