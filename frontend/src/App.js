@@ -1,4 +1,5 @@
 import React from "react";
+import PokemonImg from "./PortfolioPokemonPic.PNG";
 import "./index.scss";
 
 
@@ -37,7 +38,7 @@ function App() {
           </div>
           <div className="projectCard">
             <h3>Family Promise Service Logger, Tracker, and Analytics Platform</h3>
-            <img className="projectCardImg" src="https://a.familypromiseservicetracker.dev/static/media/logo.9e95821a.png" alt="Family Promise" />
+            <img className="projectCardImg" src={PokemonImg} alt="Family Promise" />
             <p>Acclimated to mature codebase quickly & quickly established rapport with team of junior developers and junior data scientists. Personally got to contribute by creating key analytics UI and service tracker UI on the frontend with React, dispatching actions triggered by user interaction and managing state with reducers via redux, creating corresponding API endpoints with node, making required changes to the backend Postgres database, and styling the culmination of UI and function with CSS / SCSS / ANT Library. My role was primarily as a full stack engineer, leading on UX and design.</p>
             <a href="https://a.familypromiseservicetracker.dev/login">Site</a>
             <a href="https://github.com/Lambda-School-Labs/family-promise-service-tracker-fe-a">Github</a>
