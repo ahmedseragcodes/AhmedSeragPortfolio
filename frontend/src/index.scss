@@ -105,6 +105,10 @@ body {
     text-decoration: none;
   }
 }
+.projectCard:hover {
+  transition: 2s;
+  width: 45%;
+}
 
 /* MEDIA QUERIES */
 
