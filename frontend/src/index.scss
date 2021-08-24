@@ -84,6 +84,12 @@ body {
   justify-content: center;
   align-items: flex-start;
 }
+.projectsGroup2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
 .projectCard {
   display: flex;
   flex-direction: column;
@@ -120,6 +126,17 @@ body {
     text-align: center;
   }
   .projectsGroup1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .projectCard {
+      width: 75%;
+      p {
+        width: 100%;
+      }
+    }
+  }
+  .projectsGroup2 {
     display: flex;
     flex-direction: column;
     align-items: center;

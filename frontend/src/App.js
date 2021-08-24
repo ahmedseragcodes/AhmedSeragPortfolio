@@ -3,6 +3,8 @@ import PokemonImg from "./PortfolioPokemonPic.PNG";
 import FamilyPromiseImg from "./PortfolioFamilyPromisePic.png";
 import CarSalesImg from "./PortfolioCarSalesPic.PNG";
 import PortfolioAuthorImg from "./PortfolioSelfImg.png";
+import AFBackendImg from "./PortfolioAFBackend.jpg";
+import CalculatorImg from "./PortfolioCalculator.PNG";
 import "./index.scss";
 
 
@@ -68,6 +70,23 @@ function App() {
             <a href="https://github.com/ahmedseragcodes/car-purchase-calculator2">Github</a>
           </div>
         </div>
+        <div className="projectsGroup2">
+          <div className="projectCard">
+            <h3>Anywhere Fitness Class App Backend, API and Database</h3>
+            <img className="projectCardImg" src={AFBackendImg} alt="Anywhere Fitness App" />
+            <p>Utilized Node JS & Express JS to build out API and corresponding endpoints for creating, updating, reading, deleting fitness classes and gym clientele. Created backend database utilizing SQLite for managing data, knex js for queries & integration with backend.</p>
+            <a href="https://anywherefitness2021.herokuapp.com/">Site</a>
+            <a href="https://github.com/Anywhere-Fitness-2021/AF-Backend">Github</a>
+          </div>
+          <div className="projectCard">
+            <h3>Calculator</h3>
+            <img className="projectCardImg" src={CalculatorImg} alt="Calculator App" />
+            <p>Utilized redux for triggering actions based on user interaction and changing/managing state via reducers & react to create functionality for mathematical operations 
+            </p>
+            <a href="https://react-redux-calculator-eight.vercel.app/">Site</a>
+            <a href="https://github.com/ahmedseragcodes/react-redux-calculator">Github</a>
+          </div>
+          </div>
       </div>
     </div>
   );
