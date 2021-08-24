@@ -5,6 +5,7 @@ import CarSalesImg from "./PortfolioCarSalesPic.PNG";
 import PortfolioAuthorImg from "./PortfolioSelfImg.png";
 import AFBackendImg from "./PortfolioAFBackend.jpg";
 import CalculatorImg from "./PortfolioCalculator.PNG";
+import SignInSheetImg from "./PortfolioSignInSheet.PNG";
 import "./index.scss";
 
 
@@ -85,6 +86,14 @@ function App() {
             </p>
             <a href="https://react-redux-calculator-eight.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/react-redux-calculator">Github</a>
+          </div>
+          <div className="projectCard">
+            <h3>Sign In Sheet (Create, Read, Update)</h3>
+            <img className="projectCardImg" src={SignInSheetImg} alt="Sign In Sheet App" />
+            <p>Utilized React to create UI for form input and for displaying input results, redux for triggering actions based on user interaction and changing/managing state via reducers, standard CSS for styling
+            </p>
+            <a href="https://sign-in-sheet.vercel.app/">Site</a>
+            <a href="https://github.com/ahmedseragcodes/sign-in-sheet">Github</a>
           </div>
           </div>
       </div>
