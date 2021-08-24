@@ -91,13 +91,17 @@ body {
   align-items: flex-start;
 }
 .projectCard {
+  shadowOffset: {
+    width: 0;
+    height: 2;
+  };
+  box-shadow: 1rem 1rem 1rem 1rem black;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 1.8rem;
   padding: 1rem;
   margin: 2rem;
-  box-shadow: 1rem 1rem 1rem 0rem black;
   width: 33%;
   text-align: center;
   p {
