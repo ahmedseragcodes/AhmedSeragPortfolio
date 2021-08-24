@@ -1,5 +1,7 @@
 import React from "react";
 import PokemonImg from "./PortfolioPokemonPic.PNG";
+import FamilyPromiseImg from "./PortfolioFamilyPromisePic.png";
+import CarSalesImg from "./PortfolioCarSalesPic.PNG";
 import "./index.scss";
 
 
@@ -31,24 +33,27 @@ function App() {
         <div className="projectsGroup1">
           <div className="projectCard">
             <h3>Family Promise Service Logger, Tracker, and Analytics Platform</h3>
-            <img className="projectCardImg" src="https://a.familypromiseservicetracker.dev/static/media/logo.9e95821a.png" alt="Family Promise" />
+            <img className="projectCardImg" src={FamilyPromiseImg} alt="Family Promise App" />
             <p>Acclimated to mature codebase quickly & quickly established rapport with team of junior developers and junior data scientists. Personally got to contribute by creating key analytics UI and service tracker UI on the frontend with React, dispatching actions triggered by user interaction and managing state with reducers via redux, creating corresponding API endpoints with node, making required changes to the backend Postgres database, and styling the culmination of UI and function with CSS / SCSS / ANT Library. My role was primarily as a full stack engineer, leading on UX and design.</p>
             <a href="https://a.familypromiseservicetracker.dev/login">Site</a>
-            <a href="https://github.com/Lambda-School-Labs/family-promise-service-tracker-fe-a">Github</a>
+            <a href="https://github.com/Lambda-School-Labs/family-promise-service-tracker-fe-a">Frontend Github</a>
+            <a href="https://github.com/Lambda-School-Labs/family-promise-service-tracker-be-a">Backend Github</a>
           </div>
           <div className="projectCard">
-            <h3>Family Promise Service Logger, Tracker, and Analytics Platform</h3>
-            <img className="projectCardImg" src={PokemonImg} alt="Family Promise" />
-            <p>Acclimated to mature codebase quickly & quickly established rapport with team of junior developers and junior data scientists. Personally got to contribute by creating key analytics UI and service tracker UI on the frontend with React, dispatching actions triggered by user interaction and managing state with reducers via redux, creating corresponding API endpoints with node, making required changes to the backend Postgres database, and styling the culmination of UI and function with CSS / SCSS / ANT Library. My role was primarily as a full stack engineer, leading on UX and design.</p>
-            <a href="https://a.familypromiseservicetracker.dev/login">Site</a>
-            <a href="https://github.com/Lambda-School-Labs/family-promise-service-tracker-fe-a">Github</a>
+            <h3>Pokemon Pokedex (Read, Update, Delete)</h3>
+            <img className="projectCardImg" src={PokemonImg} alt="Pokemon Pokedex App" />
+            <p>Utilized Redux to setup manage get, update, read actions, as well as reducers to manage state in redux store, seeded by the Pokemon API and Created UI with React, styled with CSS, responsive
+            </p>
+            <a href="https://pokedex-ashy-five.vercel.app/">Site</a>
+            <a href="https://github.com/ahmedseragcodes/Pokedex">Github</a>
           </div>
           <div className="projectCard">
-            <h3>Family Promise Service Logger, Tracker, and Analytics Platform</h3>
-            <img className="projectCardImg" src="https://a.familypromiseservicetracker.dev/static/media/logo.9e95821a.png" alt="Family Promise" />
-            <p>Acclimated to mature codebase quickly & quickly established rapport with team of junior developers and junior data scientists. Personally got to contribute by creating key analytics UI and service tracker UI on the frontend with React, dispatching actions triggered by user interaction and managing state with reducers via redux, creating corresponding API endpoints with node, making required changes to the backend Postgres database, and styling the culmination of UI and function with CSS / SCSS / ANT Library. My role was primarily as a full stack engineer, leading on UX and design.</p>
-            <a href="https://a.familypromiseservicetracker.dev/login">Site</a>
-            <a href="https://github.com/Lambda-School-Labs/family-promise-service-tracker-fe-a">Github</a>
+            <h3>Car Sales Calculator</h3>
+            <img className="projectCardImg" src={CarSalesImg} alt="Car Sales Calculator App" />
+            <p>Created redux store, initial state, actions and reducers for managing state throughout app in response to dynamic user interaction. Implemented media queries via CSS to make app mobile-responsive.
+            </p>
+            <a href="https://car-purchase-calculator.vercel.app/">Site</a>
+            <a href="https://github.com/ahmedseragcodes/car-purchase-calculator2">Github</a>
           </div>
         </div>
       </div>
