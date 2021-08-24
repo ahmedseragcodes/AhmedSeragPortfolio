@@ -9,6 +9,7 @@ import "./index.scss";
 function App() {
   return (
     <div className="frontPageContainer">
+      <div className="headerContainer">
       <div className="header">
         <p>Ahmed Serag</p>
         <i class="fas fa-keyboard fa-xl"></i>
@@ -19,6 +20,7 @@ function App() {
       <div className="subHeaderLinks">
         <a href="https://github.com/ahmedseragcodes">My Github</a>
         <a href="https://www.linkedin.com/in/ahmedcanam/">My LinkedIn</a>
+      </div>
       </div>
       <div className="skillsIconContainer">
         <h2>Skills</h2>
