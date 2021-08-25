@@ -6,6 +6,7 @@ import PortfolioAuthorImg from "./PortfolioSelfie4.jpg";
 import AFBackendImg from "./PortfolioAFBackend.jpg";
 import CalculatorImg from "./PortfolioCalculator.PNG";
 import SignInSheetImg from "./PortfolioSignInSheet.PNG";
+import PortfolioAnim1 from "./undrawCode.png";
 import "./index.scss";
 
 
@@ -25,23 +26,29 @@ function App() {
         <a href="https://www.linkedin.com/in/ahmedcanam/">My LinkedIn</a>
       </div>
       </div>
-      <div className="skillsIconContainer">
-        <h2>Skills</h2>
-        <div className="skillsIconGroup1">
-          <i class="fab fa-react fa-xl"></i>
-          <i class="fab fa-js-square fa-xl"></i>
-          <i class="fab fa-node-js fa-xl"></i>
-          <i class="fas fa-database fa-xl">SQLite</i>
-          <i class="fab fa-css3-alt fa-xl"></i>
-        </div>
-        <div className="skillsIconGroup2">
-          <i class="fab fa-sass fa-xl"></i>
-          <i class="fab fa-html5 fa-xl"></i>
-          <i class="fab fa-github fa-xl"></i>
-          <i class="fab fa-git-square fa-xl"></i>
-          <i class="fab fa-google"></i>
-          <i class="fab fa-facebook"></i>
-        </div>
+      <h2 className="skillsSectionHeading">Tech & Skills</h2>
+      <div className="skillsSection">
+        <div className="skillsIconContainer">
+          <div className="skillsIconGroup1">
+            <i class="fab fa-react fa-xl"></i>
+            <i class="fab fa-js-square fa-xl"></i>
+            <i class="fab fa-node-js fa-xl"></i>
+            <i class="fas fa-database fa-xl">SQLite</i>
+            <i class="fab fa-css3-alt fa-xl"></i>
+          </div>
+          <div className="skillsIconGroup2">
+            <i class="fab fa-sass fa-xl"></i>
+            <i class="fab fa-html5 fa-xl"></i>
+            <i class="fab fa-github fa-xl"></i>
+            <i class="fab fa-git-square fa-xl"></i>
+            <i class="fab fa-google"></i>
+            <i class="fab fa-facebook"></i>
+          </div>
+          <p>Frontend: React, Redux, CSS, SCSS, HTML</p>
+          <p>Backend: Node, Express, Knex, SQLite</p>
+          <p>Additional: Python, Google Ads, Facebook Ads, Tech Sales</p>
+      </div>
+      <img className="skillSectionImg" src={PortfolioAnim1} alt="programmer in front of computer" />
       </div>
       <div className="projectsGroupContainer">
         <h2>Projects</h2>
