@@ -6,7 +6,7 @@ import PortfolioAuthorImg from "./PortfolioSelfie4.jpg";
 import AFBackendImg from "./PortfolioAFBackend.jpg";
 import CalculatorImg from "./PortfolioCalculator.PNG";
 import SignInSheetImg from "./PortfolioSignInSheet.PNG";
-import PortfolioAnim1 from "./undrawCode.png";
+import PortfolioAnim1 from "./undrawPortfolio2.png";
 import "./index.scss";
 
 

@@ -58,7 +58,7 @@ body {
     font-size: 1.5rem;
   }
   .skillSectionImg {
-    height: 30rem;
+    height: 23rem;
     margin: 3rem;
     border-radius: 3rem;
     border: .5rem solid black;
@@ -136,9 +136,9 @@ body {
     text-decoration: none;
   }
 }
-.projectCard:hover {
-  transition: 2s;
-  width: 45%;
+.projectCardImg:hover {
+  transition: 1s;
+  width: 45rem;
 }
 
 /* MEDIA QUERIES */
