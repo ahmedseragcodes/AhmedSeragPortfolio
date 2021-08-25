@@ -42,7 +42,28 @@ body {
 
 }
 
-/* Skills Icon Group */ 
+/* Skills Section & Icon Group */
+
+.skillsSectionHeading {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.skillsSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-size: 1.5rem;
+  }
+  .skillSectionImg {
+    height: 30rem;
+    margin: 3rem;
+    border-radius: 3rem;
+    border: .5rem solid black;
+  }
+}
 
 .skillsIconContainer {
   text-align: center;
@@ -128,6 +149,13 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  .skillsSection {
+    display: flex;
+    flex-direction: column;
+    .skillSectionImg {
+      height: 15rem;
+    }
   }
   .projectsGroup1 {
     display: flex;
