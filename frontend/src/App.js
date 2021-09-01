@@ -8,6 +8,7 @@ import CalculatorImg from "./PortfolioCalculator.PNG";
 import SignInSheetImg from "./PortfolioSignInSheet.PNG";
 import PortfolioAnim1 from "./undrawPortfolio2.png";
 import PortfolioNetworkRec from "./PortfolioNetworkRecommend.PNG";
+import PortfolioCustomerJourney from "./PortfolioCustomerJourney.PNG";
 import "./index.scss";
 
 
@@ -64,20 +65,28 @@ function App() {
           </div>
           <div className="projectCard">
             <h3>Network Recommend</h3>
-            <img className="projectCardImg" src={PortfolioNetworkRec} alt="Anywhere Fitness App" />
+            <img className="projectCardImg" src={PortfolioNetworkRec} alt="Social Network Recommendation App" />
             <p>Created a web app that determines the best social networks for your business's industry to create content on and market on to engage your respective target market. Utilized React for UI / functionality, CSS for styling/media queries, my background in advertising for content & recommendations.</p>
             <a href="https://network-recommend.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/NetworkRecommend">Github</a>
           </div>
           <div className="projectCard">
             <h3>Anywhere Fitness Class App Backend, API and Database</h3>
-            <img className="projectCardImg" src={AFBackendImg} alt="Anywhere Fitness App" />
+            <img className="projectCardImg" src={AFBackendImg} alt="Person Working Out In A Gym" />
             <p>Fully functional APIs with CRUD functionality for Fitness Classes as well as Users/Attendees. Utilized Node JS & Express JS to build out API and corresponding endpoints for creating, updating, reading, deleting fitness classes and gym clientele. Created backend database utilizing SQLite for managing data, knex js for queries & integration with backend.</p>
             <a href="https://anywherefitness2021.herokuapp.com/">Site</a>
             <a href="https://github.com/Anywhere-Fitness-2021/AF-Backend">Github</a>
           </div>
         </div>
         <div className="projectsGroup2">
+        <div className="projectCard">
+            <h3>Customer Journey Analyzer</h3>
+            <img className="projectCardImg" src={PortfolioCustomerJourney} alt="Customer Journey Analyzation Tool" />
+            <p>Diagnoses a businesss's customer journey performance and delivers productive insight based on user input of advertisement click through rate, website average session duration, and website conversion rate. Built utilizing Javascript, React for UI/functionality, CSS for styling, and my own advertising and sales expertise for the content and recommendations.   
+            </p>
+            <a href="https://customer-journey-analyzer.vercel.app/">Site</a>
+            <a href="https://github.com/ahmedseragcodes/Customer-Journey-Analyzer">Github</a>
+          </div>
         <div className="projectCard">
             <h3>Car Sales Calculator</h3>
             <img className="projectCardImg" src={CarSalesImg} alt="Car Sales Calculator App" />
@@ -94,6 +103,8 @@ function App() {
             <a href="https://react-redux-calculator-eight.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/react-redux-calculator">Github</a>
           </div>
+          </div>
+          <div className="projectsGroup3">
           <div className="projectCard">
             <h3>Pokemon Pokedex (Read, Update, Delete)</h3>
             <img className="projectCardImg" src={PokemonImg} alt="Pokemon Pokedex App" />
@@ -102,8 +113,6 @@ function App() {
             <a href="https://pokedex-ashy-five.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/Pokedex">Github</a>
           </div>
-          </div>
-          <div className="projectsGroup3">
           <div className="projectCard">
             <h3>Sign In Sheet (Create, Read, Update)</h3>
             <img className="projectCardImg" src={SignInSheetImg} alt="Sign In Sheet App" />
