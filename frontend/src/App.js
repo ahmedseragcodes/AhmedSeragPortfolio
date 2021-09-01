@@ -70,47 +70,47 @@ function App() {
             <a href="https://github.com/ahmedseragcodes/NetworkRecommend">Github</a>
           </div>
           <div className="projectCard">
+            <h3>Anywhere Fitness Class App Backend, API and Database</h3>
+            <img className="projectCardImg" src={AFBackendImg} alt="Anywhere Fitness App" />
+            <p>Fully functional APIs with CRUD functionality for Fitness Classes as well as Users/Attendees. Utilized Node JS & Express JS to build out API and corresponding endpoints for creating, updating, reading, deleting fitness classes and gym clientele. Created backend database utilizing SQLite for managing data, knex js for queries & integration with backend.</p>
+            <a href="https://anywherefitness2021.herokuapp.com/">Site</a>
+            <a href="https://github.com/Anywhere-Fitness-2021/AF-Backend">Github</a>
+          </div>
+        </div>
+        <div className="projectsGroup2">
+        <div className="projectCard">
             <h3>Car Sales Calculator</h3>
             <img className="projectCardImg" src={CarSalesImg} alt="Car Sales Calculator App" />
-            <p>Created redux store, initial state, actions and reducers for managing state throughout app in response to dynamic user interaction. Implemented media queries via CSS to make app mobile-responsive.
+            <p>Calculates the final car price with features you can add or remove. Created redux store, initial state, actions and reducers for managing state throughout app in response to dynamic user interaction. Implemented media queries via CSS to make app mobile-responsive.
             </p>
             <a href="https://car-purchase-calculator.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/car-purchase-calculator2">Github</a>
           </div>
-        </div>
-        <div className="projectsGroup2">
           <div className="projectCard">
-            <h3>Anywhere Fitness Class App Backend, API and Database</h3>
-            <img className="projectCardImg" src={AFBackendImg} alt="Anywhere Fitness App" />
-            <p>Utilized Node JS & Express JS to build out API and corresponding endpoints for creating, updating, reading, deleting fitness classes and gym clientele. Created backend database utilizing SQLite for managing data, knex js for queries & integration with backend.</p>
-            <a href="https://anywherefitness2021.herokuapp.com/">Site</a>
-            <a href="https://github.com/Anywhere-Fitness-2021/AF-Backend">Github</a>
-          </div>
-          <div className="projectCard">
-            <h3>Calculator</h3>
+            <h3>Math Operation Calculator With Memory Recall</h3>
             <img className="projectCardImg" src={CalculatorImg} alt="Calculator App" />
-            <p>Utilized redux for triggering actions based on user interaction and changing/managing state via reducers & react to create functionality for mathematical operations 
+            <p>Add, Subtract, Multiply numbers, use memory to store, recall, or performn a mathamatical operation with a number. Utilized redux for triggering actions based on user interaction and changing/managing state via reducers & react to create functionality for mathematical operations 
             </p>
             <a href="https://react-redux-calculator-eight.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/react-redux-calculator">Github</a>
           </div>
           <div className="projectCard">
-            <h3>Sign In Sheet (Create, Read, Update)</h3>
-            <img className="projectCardImg" src={SignInSheetImg} alt="Sign In Sheet App" />
-            <p>Utilized React to create UI for form input and for displaying input results, redux for triggering actions based on user interaction and changing/managing state via reducers, standard CSS for styling
+            <h3>Pokemon Pokedex (Read, Update, Delete)</h3>
+            <img className="projectCardImg" src={PokemonImg} alt="Pokemon Pokedex App" />
+            <p>See 50 of the first 150 pokemon in pokedex format, with the ability to edit their names and delete them. Utilized Redux to setup manage get, update, read actions, as well as reducers to manage state in redux store, seeded by the Pokemon API and Created UI with React, styled with CSS, responsive
             </p>
-            <a href="https://sign-in-sheet.vercel.app/">Site</a>
-            <a href="https://github.com/ahmedseragcodes/sign-in-sheet">Github</a>
+            <a href="https://pokedex-ashy-five.vercel.app/">Site</a>
+            <a href="https://github.com/ahmedseragcodes/Pokedex">Github</a>
           </div>
           </div>
           <div className="projectsGroup3">
           <div className="projectCard">
-            <h3>Pokemon Pokedex (Read, Update, Delete)</h3>
-            <img className="projectCardImg" src={PokemonImg} alt="Pokemon Pokedex App" />
-            <p>Utilized Redux to setup manage get, update, read actions, as well as reducers to manage state in redux store, seeded by the Pokemon API and Created UI with React, styled with CSS, responsive
+            <h3>Sign In Sheet (Create, Read, Update)</h3>
+            <img className="projectCardImg" src={SignInSheetImg} alt="Sign In Sheet App" />
+            <p>Allows users to sign in with name + when they were there, as well as see and edit their entry. Utilized React to create UI for form input and for displaying input results, redux for triggering actions based on user interaction and changing/managing state via reducers, standard CSS for styling
             </p>
-            <a href="https://pokedex-ashy-five.vercel.app/">Site</a>
-            <a href="https://github.com/ahmedseragcodes/Pokedex">Github</a>
+            <a href="https://sign-in-sheet.vercel.app/">Site</a>
+            <a href="https://github.com/ahmedseragcodes/sign-in-sheet">Github</a>
           </div>
          </div>
       </div>
