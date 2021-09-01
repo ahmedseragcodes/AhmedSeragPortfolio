@@ -7,6 +7,7 @@ import AFBackendImg from "./PortfolioAFBackend.jpg";
 import CalculatorImg from "./PortfolioCalculator.PNG";
 import SignInSheetImg from "./PortfolioSignInSheet.PNG";
 import PortfolioAnim1 from "./undrawPortfolio2.png";
+import PortfolioNetworkRec from "./PortfolioNetworkRecommend.PNG";
 import "./index.scss";
 
 
@@ -62,12 +63,11 @@ function App() {
             <a href="https://github.com/Lambda-School-Labs/family-promise-service-tracker-be-a">Backend Github</a>
           </div>
           <div className="projectCard">
-            <h3>Pokemon Pokedex (Read, Update, Delete)</h3>
-            <img className="projectCardImg" src={PokemonImg} alt="Pokemon Pokedex App" />
-            <p>Utilized Redux to setup manage get, update, read actions, as well as reducers to manage state in redux store, seeded by the Pokemon API and Created UI with React, styled with CSS, responsive
-            </p>
-            <a href="https://pokedex-ashy-five.vercel.app/">Site</a>
-            <a href="https://github.com/ahmedseragcodes/Pokedex">Github</a>
+            <h3>Network Recommend</h3>
+            <img className="projectCardImg" src={PortfolioNetworkRec} alt="Anywhere Fitness App" />
+            <p>Created a web app that determines the best social networks for your business's industry to create content on and market on to engage your respective target market. Utilized React for UI / functionality, CSS for styling/media queries, my background in advertising for content & recommendations.</p>
+            <a href="https://network-recommend.vercel.app/">Site</a>
+            <a href="https://github.com/ahmedseragcodes/NetworkRecommend">Github</a>
           </div>
           <div className="projectCard">
             <h3>Car Sales Calculator</h3>
@@ -103,6 +103,16 @@ function App() {
             <a href="https://github.com/ahmedseragcodes/sign-in-sheet">Github</a>
           </div>
           </div>
+          <div className="projectsGroup3">
+          <div className="projectCard">
+            <h3>Pokemon Pokedex (Read, Update, Delete)</h3>
+            <img className="projectCardImg" src={PokemonImg} alt="Pokemon Pokedex App" />
+            <p>Utilized Redux to setup manage get, update, read actions, as well as reducers to manage state in redux store, seeded by the Pokemon API and Created UI with React, styled with CSS, responsive
+            </p>
+            <a href="https://pokedex-ashy-five.vercel.app/">Site</a>
+            <a href="https://github.com/ahmedseragcodes/Pokedex">Github</a>
+          </div>
+         </div>
       </div>
     </div>
   );
