@@ -9,6 +9,7 @@ import SignInSheetImg from "./PortfolioSignInSheet.PNG";
 import PortfolioAnim1 from "./undrawPortfolio2.png";
 import PortfolioNetworkRec from "./PortfolioNetworkRecommend.PNG";
 import PortfolioCustomerJourney from "./PortfolioCustomerJourney.PNG";
+import PortfolioConvCTRCalc from "./PortfolioConvCTRCalc.PNG";
 import "./index.scss";
 
 
@@ -87,6 +88,14 @@ function App() {
             <a href="https://customer-journey-analyzer.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/Customer-Journey-Analyzer">Github</a>
           </div>
+          <div className="projectCard">
+            <h3>Conversion Rate & Clickthrough Rate Calculator</h3>
+            <img className="projectCardImg" src={PortfolioConvCTRCalc} alt="Conversion Rate & Clickthrough Rate Calculator App" />
+            <p>Determines Ad Conversion Rate & Clickthrough Rate based on user input and standard industry calculations. Created UI/functionality with React, styled and made responsive with SCSS/CSS. 
+            </p>
+            <a href="https://conversion-rate-click-through-rate-calculator.vercel.app/">Site</a>
+            <a href="https://github.com/ahmedseragcodes/ConversionRateClickThroughRateCalculator">Github</a>
+          </div>
         <div className="projectCard">
             <h3>Car Sales Calculator</h3>
             <img className="projectCardImg" src={CarSalesImg} alt="Car Sales Calculator App" />
@@ -95,6 +104,8 @@ function App() {
             <a href="https://car-purchase-calculator.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/car-purchase-calculator2">Github</a>
           </div>
+          </div>
+          <div className="projectsGroup3">
           <div className="projectCard">
             <h3>Math Operation Calculator With Memory Recall</h3>
             <img className="projectCardImg" src={CalculatorImg} alt="Calculator App" />
@@ -103,8 +114,6 @@ function App() {
             <a href="https://react-redux-calculator-eight.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/react-redux-calculator">Github</a>
           </div>
-          </div>
-          <div className="projectsGroup3">
           <div className="projectCard">
             <h3>Pokemon Pokedex (Read, Update, Delete)</h3>
             <img className="projectCardImg" src={PokemonImg} alt="Pokemon Pokedex App" />
