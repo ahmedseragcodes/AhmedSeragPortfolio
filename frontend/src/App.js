@@ -51,7 +51,7 @@ function App() {
           <div className="skillsText">
           <p>Frontend: React, Redux, CSS, SCSS, HTML</p>
           <p>Backend: Node, Express, Knex, SQLite, PostgresSQL</p>
-          <p>Additional: Git, Github, Trello, Google/Facebook Ad Creation/Optimization/Copywriting, Sales, Python</p>
+          <p className="longSkillsText">Additional: Git, Github, Trello, Google/Facebook Ad Creation/Optimization/Copywriting, Sales, Python</p>
           </div>
       </div>
       <img className="skillSectionImg" src={PortfolioAnim1} alt="programmer in front of computer" />
@@ -62,7 +62,7 @@ function App() {
           <div className="projectCard">
             <h3>Human Rights First Blue Witness App</h3>
             <img className="projectCardImg" src={PortfolioBlueWitness} alt="Blue Witness Web App" />
-            <p>I served as a Fullstack Developer and Technical Project Manager, leading on the planning of sprints, workflow, user stories, and trello cards for a team of 6 full stack developers and 5 data scientists. I got to contribute to the code in many ways, from code reviews on Github to code walkthroughs with Loom to coding UI and functionality with React and Redux, creating APIs/endpoints with Node and Express, and fixing bugs with all of the above. </p>
+            <p>I served as a Fullstack Developer and Technical Project Manager for an app aggregating and classifying Police-Citizen intereactions around the USA, leading on the planning of sprints, workflow, user stories, and trello cards for a team of 6 full stack developers and 5 data scientists. I got to contribute to the code in many ways, including code reviews on Github, to code walkthroughs with Loom, to coding UI and functionality with React, the store and the flow of state with actions and reducers via Redux, creating APIs/endpoints with Node and Express, and fixing bugs with all of the above. </p>
             <a href="https://a.humanrightsfirst.dev/">Site</a>
             <a href="https://github.com/Lambda-School-Labs/human-rights-first-police-fe-a">Frontend Github</a>
             <a href="https://github.com/Lambda-School-Labs/human-rights-first-police-be-a">Backend Github</a>

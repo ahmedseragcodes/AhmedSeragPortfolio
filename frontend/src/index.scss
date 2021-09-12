@@ -76,6 +76,9 @@ body {
     flex-direction: column;
     align-items: center;
     font-weight: bold;
+    .longSkillsText {
+      width: 75%;
+    }
   }
 }
 
