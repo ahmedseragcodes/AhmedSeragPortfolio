@@ -7,9 +7,7 @@ Here's the general vision for design/layout on Whimsical: https://whimsical.com/
 
 ## Built With
 
--This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
--This project utilizes icons from FontAwesome 
--This project utilizes animations from Undraw.co
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This project utilizes icons from FontAwesome. This project utilizes animations from Undraw.co. This project uses a background image from SVG Backgrounds (https://www.svgbackgrounds.com/). 
 
 
 ## Available Scripts
