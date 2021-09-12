@@ -10,6 +10,7 @@ import PortfolioAnim1 from "./undrawPortfolio2.png";
 import PortfolioNetworkRec from "./PortfolioNetworkRecommend.PNG";
 import PortfolioCustomerJourney from "./PortfolioCustomerJourney.PNG";
 import PortfolioConvCTRCalc from "./PortfolioConvCTRCalc.PNG";
+import PortfolioBlueWitness from "./PortfolioBlueWitness.PNG";
 import "./index.scss";
 
 
