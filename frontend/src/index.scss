@@ -62,12 +62,13 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-left: -4rem;
   p {
     font-size: 1.5rem;
   }
   .skillSectionImg {
     height: 23rem;
-    margin: 3rem;
+    margin-left: -3rem;
     border-radius: 3rem;
     border: .5rem solid black;
   }
@@ -176,8 +177,10 @@ body {
   .skillsSection {
     display: flex;
     flex-direction: column;
+    margin-left: 0rem;
     .skillSectionImg {
       height: 15rem;
+      margin-left: 0rem;
     }
   }
   .projectsGroup1 {
@@ -225,8 +228,10 @@ body {
   .skillsSection {
     display: flex;
     flex-direction: column;
+    margin-left: 0rem;
     .skillSectionImg {
       height: 15rem;
+      margin-left: 0rem;
     }
   }
   .projectsGroup1 {
