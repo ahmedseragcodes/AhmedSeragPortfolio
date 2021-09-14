@@ -62,6 +62,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-left: -5rem;
   p {
     font-size: 1.5rem;
   }
@@ -176,6 +177,7 @@ body {
   .skillsSection {
     display: flex;
     flex-direction: column;
+    margin-left: 0rem;
     .skillSectionImg {
       height: 15rem;
     }
@@ -225,6 +227,7 @@ body {
   .skillsSection {
     display: flex;
     flex-direction: column;
+    margin-left: 0rem;
     .skillSectionImg {
       height: 15rem;
     }
