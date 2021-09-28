@@ -8,12 +8,26 @@ html {
 }
 body {
   background-color: #FFFFFF;
-  font-weight: bold;
 }
 
 
 /* Front Page Header */
-
+.headerContainer {
+  margin: 1rem;
+  box-shadow: 1rem 1rem 1rem 1rem #eee;
+  shadow-offset: {
+    width: 0;
+    height: 2;
+  }
+  width: auto;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 15%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .header {
   display: flex;
   flex-direction: row;
@@ -137,7 +151,7 @@ body {
     width: 0;
     height: 2;
   };
-  box-shadow: 1rem 1rem 1rem 1rem black;
+  box-shadow: 1rem 1rem 1rem 1rem #eee;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -170,6 +184,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: auto;
   }
   .skillsSection {
     display: flex;
@@ -217,6 +232,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    width: auto;
   }
   .skillsSection {
     display: flex;
