@@ -6,11 +6,11 @@ import PortfolioAuthorImg from "./PortfolioSelfie4.jpg";
 import AFBackendImg from "./PortfolioAFBackend.jpg";
 import CalculatorImg from "./PortfolioCalculator.PNG";
 // import SignInSheetImg from "./PortfolioSignInSheet.PNG";
-import PortfolioAnim1 from "./undrawPortfolio2.png";
 import PortfolioNetworkRec from "./PortfolioNetworkRecommend.PNG";
 import PortfolioCustomerJourney from "./PortfolioCustomerJourney.PNG";
 import PortfolioConvCTRCalc from "./PortfolioConvCTRCalc.PNG";
 import PortfolioBlueWitness from "./PortfolioBlueWit.PNG";
+import Badge from "./LambdaSchoolCertificateBadge.PNG";
 import "./index.scss";
 
 
@@ -32,6 +32,7 @@ function App() {
       </div>
       <h2 className="skillsSectionHeading">Tech & Skills</h2>
       <div className="skillsSection">
+      <a href="https://www.credly.com/badges/b5e4932b-c889-4424-a8b8-128b70835205/public_url"><img className="gradBadge" src={Badge} alt="Ahmed Serag's Lambda School Graduation Certificate"/></a>
         <div className="skillsIconContainer">
           <div className="skillsIconGroup1">
             <i class="fab fa-react fa-xl"></i>
@@ -54,7 +55,6 @@ function App() {
           <p className="longSkillsText">Additional: Git, Github, Trello, Google/Facebook Ad Creation/Optimization/Copywriting, Sales, Python</p>
           </div>
       </div>
-      <img className="skillSectionImg" src={PortfolioAnim1} alt="programmer in front of computer" />
       </div>
       <div className="projectsGroupContainer">
         <h2>Projects</h2>
