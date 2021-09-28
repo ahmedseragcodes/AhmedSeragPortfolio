@@ -8,8 +8,9 @@ Here's the general vision for design/layout on Whimsical: https://whimsical.com/
 ## Built With
 
 -This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
--This project utilizes icons from FontAwesome 
--This project utilizes animations from Undraw.co
+-This project utilizes icons from FontAwesome (https://fontawesome.com/)
+-This project utilizes animations from Undraw(https://undraw.co/)
+-This project utilizes a git fork favicon from icons8(https://icons8.com/)
 
 
 ## Available Scripts
