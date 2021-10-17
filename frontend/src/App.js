@@ -1,6 +1,7 @@
 //Tech Imports
 import React from "react";
 //Image Imports
+import AirCall from "./PortfolioAirCall3.PNG";
 import PokemonImg from "./PortfolioPokemonPic.PNG";
 import FamilyPromiseImg from "./PortfolioFamilyPromisePic.png";
 import CarSalesImg from "./PortfolioCarSalesPic.PNG";
@@ -78,6 +79,15 @@ function App() {
             <a href="https://github.com/Lambda-School-Labs/family-promise-service-tracker-fe-a">Frontend Github</a>
             <a href="https://github.com/Lambda-School-Labs/family-promise-service-tracker-be-a">Backend Github</a>
           </div>
+            <div className="projectCard">
+              <h3>AirCall Telephone App</h3>
+              <img className="projectCardImg" src={AirCall} alt="Telephone App" />
+              <p>Created 3-slice app with pages for call log, call details, and archived calls utilizing React, Redux, CSS, SCSS, Material UI</p>
+              <a href="https://aircallapp.vercel.app/">Site</a>
+              <a href="https://github.com/ahmedseragcodes/aircallapp">Github</a>
+            </div>
+        </div>
+        <div className="projectsGroup2 projectsGroup">
           <div className="projectCard">
             <h3>Network Recommend</h3>
             <img className="projectCardImg" src={PortfolioNetworkRec} alt="Social Network Recommendation App" />
@@ -85,8 +95,6 @@ function App() {
             <a href="https://network-recommend.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/NetworkRecommend">Github</a>
           </div>
-        </div>
-        <div className="projectsGroup2 projectsGroup">
         <div className="projectCard">
             <h3>Anywhere Fitness Class App Backend, API and Database</h3>
             <img className="projectCardImg" src={AFBackendImg} alt="Person Working Out In A Gym" />
@@ -102,16 +110,16 @@ function App() {
             <a href="https://customer-journey-analyzer.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/Customer-Journey-Analyzer">Github</a>
         </div>
-          <div className="projectCard">
-            <h3>Conversion Rate & Clickthrough Rate Calculator</h3>
-            <img className="projectCardImg" src={PortfolioConvCTRCalc} alt="Conversion Rate & Clickthrough Rate Calculator App" />
-            <p>Determines Ad Conversion Rate & Clickthrough Rate based on user input and standard industry calculations. Created UI/functionality with React, styled and made responsive with SCSS/CSS. 
-            </p>
-            <a href="https://conversion-rate-click-through-rate-calculator.vercel.app/">Site</a>
-            <a href="https://github.com/ahmedseragcodes/ConversionRateClickThroughRateCalculator">Github</a>
-          </div>
           </div>
           <div className="projectsGroup3 projectsGroup">
+            <div className="projectCard">
+              <h3>Conversion Rate & Clickthrough Rate Calculator</h3>
+              <img className="projectCardImg" src={PortfolioConvCTRCalc} alt="Conversion Rate & Clickthrough Rate Calculator App" />
+              <p>Determines Ad Conversion Rate & Clickthrough Rate based on user input and standard industry calculations. Created UI/functionality with React, styled and made responsive with SCSS/CSS. 
+              </p>
+              <a href="https://conversion-rate-click-through-rate-calculator.vercel.app/">Site</a>
+              <a href="https://github.com/ahmedseragcodes/ConversionRateClickThroughRateCalculator">Github</a>
+            </div>
           <div className="projectCard">
             <h3>Car Sales Calculator</h3>
             <img className="projectCardImg" src={CarSalesImg} alt="Car Sales Calculator App" />
@@ -119,14 +127,6 @@ function App() {
             </p>
             <a href="https://car-purchase-calculator.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/car-purchase-calculator2">Github</a>
-          </div>
-          <div className="projectCard">
-            <h3>Math Operation Calculator With Memory Recall</h3>
-            <img className="projectCardImg" src={CalculatorImg} alt="Calculator App" />
-            <p>Add, Subtract, Multiply numbers, use memory to store, recall, or performn a mathamatical operation with a number. Utilized redux for triggering actions based on user interaction and changing/managing state via reducers & react to create functionality for mathematical operations 
-            </p>
-            <a href="https://react-redux-calculator-eight.vercel.app/">Site</a>
-            <a href="https://github.com/ahmedseragcodes/react-redux-calculator">Github</a>
           </div>
           <div className="projectCard">
             <h3>Pokemon Pokedex (Read, Update, Delete)</h3>
@@ -138,22 +138,14 @@ function App() {
           </div>
           </div>
           <div className="projectsGroup4 projectsGroup">
-            <div className="projectCard">
-              <h3>Sign In Sheet (Create, Read, Update)</h3>
-              <img className="projectCardImg" src={SignInSheetImg} alt="Sign In Sheet App" />
-              <p>Allows users to sign in with name + when they were there, as well as see and edit their entry. Utilized React to create UI for form input and for displaying input results, redux for triggering actions based on user interaction and changing/managing state via reducers, standard CSS for styling
-              </p>
-              <a href="https://sign-in-sheet.vercel.app/">Site</a>
-              <a href="https://github.com/ahmedseragcodes/sign-in-sheet">Github</a>
-            </div>
-            <div className="projectCard">
-              <h3>Sign In Sheet (Create, Read, Update)</h3>
-              <img className="projectCardImg" src={SignInSheetImg} alt="Sign In Sheet App" />
-              <p>Allows users to sign in with name + when they were there, as well as see and edit their entry. Utilized React to create UI for form input and for displaying input results, redux for triggering actions based on user interaction and changing/managing state via reducers, standard CSS for styling
-              </p>
-              <a href="https://sign-in-sheet.vercel.app/">Site</a>
-              <a href="https://github.com/ahmedseragcodes/sign-in-sheet">Github</a>
-            </div>
+          <div className="projectCard">
+            <h3>Math Operation Calculator With Memory Recall</h3>
+            <img className="projectCardImg" src={CalculatorImg} alt="Calculator App" />
+            <p>Add, Subtract, Multiply numbers, use memory to store, recall, or performn a mathamatical operation with a number. Utilized redux for triggering actions based on user interaction and changing/managing state via reducers & react to create functionality for mathematical operations 
+            </p>
+            <a href="https://react-redux-calculator-eight.vercel.app/">Site</a>
+            <a href="https://github.com/ahmedseragcodes/react-redux-calculator">Github</a>
+          </div>
             <div className="projectCard">
               <h3>Sign In Sheet (Create, Read, Update)</h3>
               <img className="projectCardImg" src={SignInSheetImg} alt="Sign In Sheet App" />
