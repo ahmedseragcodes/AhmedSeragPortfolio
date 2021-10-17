@@ -1,18 +1,21 @@
+//Tech Imports
 import React from "react";
+//Image Imports
 import PokemonImg from "./PortfolioPokemonPic.PNG";
 import FamilyPromiseImg from "./PortfolioFamilyPromisePic.png";
 import CarSalesImg from "./PortfolioCarSalesPic.PNG";
 import PortfolioAuthorImg from "./OfficialSuitProfPicOct21.jpg";
 import AFBackendImg from "./PortfolioAFBackend.jpg";
 import CalculatorImg from "./PortfolioCalculator.PNG";
-// import SignInSheetImg from "./PortfolioSignInSheet.PNG";
+import SignInSheetImg from "./PortfolioSignInSheet.PNG";
 import PortfolioNetworkRec from "./PortfolioNetworkRecommend.PNG";
 import PortfolioCustomerJourney from "./PortfolioCustomerJourney.PNG";
 import PortfolioConvCTRCalc from "./PortfolioConvCTRCalc.PNG";
 import PortfolioBlueWitness from "./PortfolioBlueWit.PNG";
 import Badge from "./LambdaSchoolCertificateBadge.PNG";
+//Styling Imports
 import "./index.scss";
-
+import Button from '@mui/material/Button';
 
 function App() {
   return (
@@ -26,8 +29,8 @@ function App() {
         <img src={PortfolioAuthorImg} alt="web developer who made this site"/>
       </div>
       <div className="subHeaderLinks">
-        <a href="https://github.com/ahmedseragcodes">My Github</a>
-        <a href="https://www.linkedin.com/in/ahmedcanam/">My LinkedIn</a>
+        <Button style={{backgroundColor: "white", borderRadius: "1em", margin: ".5em"}} variant="contained"><a href="https://github.com/ahmedseragcodes">My Github</a></Button>
+        <Button style={{backgroundColor: "white", borderRadius: "1em", margin: ".5em"}}variant="contained"><a href="https://www.linkedin.com/in/ahmedcanam/">My LinkedIn</a></Button>
       </div>
       </div>
       <h2 className="skillsSectionHeading">Tech & Skills</h2>
@@ -50,15 +53,15 @@ function App() {
             <i class="fab fa-facebook"></i>
           </div>
           <div className="skillsText">
-          <p>Frontend: React, Redux, CSS, SCSS, HTML</p>
-          <p>Backend: Node, Express, Knex, SQLite, PostgresSQL</p>
-          <p className="longSkillsText">Additional: Git, Github, Trello, Google/Facebook Ad Creation/Optimization/Copywriting, Sales, Python</p>
+          <p><span className="skillsTextHeading">Frontend:</span><span className="skillsTextContent"> React, Redux, CSS, SCSS, HTML</span></p>
+          <p><span className="skillsTextHeading">Backend:</span><span className="skillsTextContent"> Node, Express, Knex, SQLite, PostgresSQL</span></p>
+          <p className="longSkillsText"><span className="skillsTextHeading">Additional:</span><span className="skillsTextContent"> Git, Github, Trello, Google/Facebook Ad Creation/Optimization/Copywriting, Sales, Python</span></p>
           </div>
       </div>
       </div>
       <div className="projectsGroupContainer">
         <h2>Projects</h2>
-        <div className="projectsGroup1">
+        <div className="projectsGroup1 projectsGroup">
           <div className="projectCard">
             <h3>Human Rights First Blue Witness App</h3>
             <img className="projectCardImg" src={PortfolioBlueWitness} alt="Blue Witness Web App" />
@@ -83,14 +86,14 @@ function App() {
             <a href="https://github.com/ahmedseragcodes/NetworkRecommend">Github</a>
           </div>
         </div>
-        <div className="projectsGroup2">
+        <div className="projectsGroup2 projectsGroup">
         <div className="projectCard">
             <h3>Anywhere Fitness Class App Backend, API and Database</h3>
             <img className="projectCardImg" src={AFBackendImg} alt="Person Working Out In A Gym" />
             <p>Fully functional APIs with CRUD functionality for Fitness Classes as well as Users/Attendees. Utilized Node JS & Express JS to build out API and corresponding endpoints for creating, updating, reading, deleting fitness classes and gym clientele. Created backend database utilizing SQLite for managing data, knex js for queries & integration with backend.</p>
             <a href="https://anywherefitness2021.herokuapp.com/">Site</a>
             <a href="https://github.com/Anywhere-Fitness-2021/AF-Backend">Github</a>
-          </div>
+        </div>
         <div className="projectCard">
             <h3>Customer Journey Analyzer</h3>
             <img className="projectCardImg" src={PortfolioCustomerJourney} alt="Customer Journey Analyzation Tool" />
@@ -98,7 +101,7 @@ function App() {
             </p>
             <a href="https://customer-journey-analyzer.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/Customer-Journey-Analyzer">Github</a>
-          </div>
+        </div>
           <div className="projectCard">
             <h3>Conversion Rate & Clickthrough Rate Calculator</h3>
             <img className="projectCardImg" src={PortfolioConvCTRCalc} alt="Conversion Rate & Clickthrough Rate Calculator App" />
@@ -108,7 +111,7 @@ function App() {
             <a href="https://github.com/ahmedseragcodes/ConversionRateClickThroughRateCalculator">Github</a>
           </div>
           </div>
-          <div className="projectsGroup3">
+          <div className="projectsGroup3 projectsGroup">
           <div className="projectCard">
             <h3>Car Sales Calculator</h3>
             <img className="projectCardImg" src={CarSalesImg} alt="Car Sales Calculator App" />
@@ -133,15 +136,33 @@ function App() {
             <a href="https://pokedex-ashy-five.vercel.app/">Site</a>
             <a href="https://github.com/ahmedseragcodes/Pokedex">Github</a>
           </div>
-          {/* <div className="projectCard">
-            <h3>Sign In Sheet (Create, Read, Update)</h3>
-            <img className="projectCardImg" src={SignInSheetImg} alt="Sign In Sheet App" />
-            <p>Allows users to sign in with name + when they were there, as well as see and edit their entry. Utilized React to create UI for form input and for displaying input results, redux for triggering actions based on user interaction and changing/managing state via reducers, standard CSS for styling
-            </p>
-            <a href="https://sign-in-sheet.vercel.app/">Site</a>
-            <a href="https://github.com/ahmedseragcodes/sign-in-sheet">Github</a>
-          </div> */}
-         </div>
+          </div>
+          <div className="projectsGroup4 projectsGroup">
+            <div className="projectCard">
+              <h3>Sign In Sheet (Create, Read, Update)</h3>
+              <img className="projectCardImg" src={SignInSheetImg} alt="Sign In Sheet App" />
+              <p>Allows users to sign in with name + when they were there, as well as see and edit their entry. Utilized React to create UI for form input and for displaying input results, redux for triggering actions based on user interaction and changing/managing state via reducers, standard CSS for styling
+              </p>
+              <a href="https://sign-in-sheet.vercel.app/">Site</a>
+              <a href="https://github.com/ahmedseragcodes/sign-in-sheet">Github</a>
+            </div>
+            <div className="projectCard">
+              <h3>Sign In Sheet (Create, Read, Update)</h3>
+              <img className="projectCardImg" src={SignInSheetImg} alt="Sign In Sheet App" />
+              <p>Allows users to sign in with name + when they were there, as well as see and edit their entry. Utilized React to create UI for form input and for displaying input results, redux for triggering actions based on user interaction and changing/managing state via reducers, standard CSS for styling
+              </p>
+              <a href="https://sign-in-sheet.vercel.app/">Site</a>
+              <a href="https://github.com/ahmedseragcodes/sign-in-sheet">Github</a>
+            </div>
+            <div className="projectCard">
+              <h3>Sign In Sheet (Create, Read, Update)</h3>
+              <img className="projectCardImg" src={SignInSheetImg} alt="Sign In Sheet App" />
+              <p>Allows users to sign in with name + when they were there, as well as see and edit their entry. Utilized React to create UI for form input and for displaying input results, redux for triggering actions based on user interaction and changing/managing state via reducers, standard CSS for styling
+              </p>
+              <a href="https://sign-in-sheet.vercel.app/">Site</a>
+              <a href="https://github.com/ahmedseragcodes/sign-in-sheet">Github</a>
+            </div>
+          </div>
       </div>
     </div>
   );
